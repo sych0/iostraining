@@ -32,5 +32,9 @@ class ViewController: UIViewController {
     @IBAction func hideBlueYoshi(sender: AnyObject) {
         blueYoshi.hidden = true
     }
+    @IBAction func resetYoshis(sender: AnyObject) {
+        greenYoshi.hidden = false
+        blueYoshi.hidden = false
+    }
 }
 

@@ -40,6 +40,14 @@
                                     <action selector="hideBlueYoshi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nui-f6-PLY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTd-ei-3Sq">
+                                <rect key="frame" x="167" y="519" width="39" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetYoshis:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ano-Aw-FtB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
