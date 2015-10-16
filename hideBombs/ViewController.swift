@@ -9,7 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var blueYoshi: UIImageView!
+    @IBOutlet weak var greenYoshi: UIImageView!
+    @IBOutlet weak var hideBlueYoshiButton: UIButton!
+    @IBOutlet weak var hideGreenYoshiButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +25,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func hideGreenYoshi(sender: AnyObject) {
+        greenYoshi.hidden = true
+    }
 
+    @IBAction func hideBlueYoshi(sender: AnyObject) {
+        blueYoshi.hidden = true
+    }
 }
 

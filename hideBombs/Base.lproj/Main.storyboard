@@ -28,16 +28,28 @@
                                 <rect key="frame" x="36" y="475" width="118" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Hide Green Yoshi"/>
+                                <connections>
+                                    <action selector="hideGreenYoshi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I1e-et-z1h"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBd-tW-Xo4">
                                 <rect key="frame" x="212" y="475" width="107" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Hide Blue Yoshi"/>
+                                <connections>
+                                    <action selector="hideBlueYoshi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nui-f6-PLY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="blueYoshi" destination="r1f-HJ-Ls1" id="p8Q-Ea-YLh"/>
+                        <outlet property="greenYoshi" destination="yht-qH-JBU" id="WOS-PG-GOR"/>
+                        <outlet property="hideBlueYoshiButton" destination="eBd-tW-Xo4" id="Cd8-Wm-23G"/>
+                        <outlet property="hideGreenYoshiButton" destination="jsb-TG-KpN" id="8Y8-ve-Qap"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
