@@ -25,6 +25,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func bottomQuestionBlock(sender: AnyObject) {
+        greenYoshi.hidden = true
+        blueYoshi.hidden = true
+    }
+    
     @IBAction func hideGreenYoshi(sender: AnyObject) {
         greenYoshi.hidden = true
     }

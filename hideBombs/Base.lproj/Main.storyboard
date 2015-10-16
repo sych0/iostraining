@@ -21,35 +21,57 @@
                                 <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueYoshi" translatesAutoresizingMaskIntoConstraints="NO" id="r1f-HJ-Ls1">
-                                <rect key="frame" x="191" y="158" width="149" height="151"/>
+                                <rect key="frame" x="156" y="248" width="149" height="151"/>
                                 <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenYoshi" translatesAutoresizingMaskIntoConstraints="NO" id="yht-qH-JBU">
-                                <rect key="frame" x="8" y="158" width="175" height="151"/>
+                                <rect key="frame" x="0.0" y="135" width="175" height="151"/>
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsb-TG-KpN">
-                                <rect key="frame" x="36" y="475" width="118" height="30"/>
+                                <rect key="frame" x="32" y="457" width="126" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Hide Green Yoshi"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <size key="titleShadowOffset" width="1" height="2"/>
+                                <state key="normal" title="Hide Green Yoshi">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="hideGreenYoshi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I1e-et-z1h"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBd-tW-Xo4">
-                                <rect key="frame" x="212" y="475" width="107" height="30"/>
+                                <rect key="frame" x="207" y="457" width="117" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Hide Blue Yoshi"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <size key="titleShadowOffset" width="1" height="2"/>
+                                <state key="normal" title="Hide Blue Yoshi">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="hideBlueYoshi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nui-f6-PLY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTd-ei-3Sq">
-                                <rect key="frame" x="167" y="519" width="39" height="30"/>
+                                <rect key="frame" x="163" y="550" width="48" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Reset"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <size key="titleShadowOffset" width="1" height="2"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="resetYoshis:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ano-Aw-FtB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeI-Qj-zXL">
+                                <rect key="frame" x="207" y="500" width="39" height="36"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="bottomQuestionBlock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J2X-6u-Ejf"/>
                                 </connections>
                             </button>
                         </subviews>
